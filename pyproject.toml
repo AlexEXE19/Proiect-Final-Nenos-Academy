@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "proiect final nenos"
+version = "0.1.0"
+description = ""
+authors = ["AlexEXE19 <alexutzu873@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.6.1"
+pytest = "^8.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

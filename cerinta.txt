@@ -1,0 +1,57 @@
+Nava spatiala
+Noua nava spatiala, ISS Legacy este gata de plecare.
+Marea parte din echipaj va fi adormit prin criogenizare si supravegherea drumului va fi facuta de catre un AI superinteligent.
+
+Pentru a evita posibile scenarii apocaliptice, un sistem separat de de-criogenizare va fi implementat.
+La bordul navei sunt oameni cu urmatoarele profesii si nivele:
+- ingineri
+	1. IT
+	2. Mecanici
+	3. Aeronautici
+- cercetatori
+	1. Psihologi
+	2. Biologi
+	3. Astronomi
+- medici
+	1. Asistenti
+	2. Generali
+	3. Neurologi
+- soldati
+	1. nivel 1
+	2. nivel 2
+	3. nivel 3
+
+Persoane din urmatoarele categorii vor fi de-criogenizate pentru a se ocupa de mentenanta navei:
+1 Inginer
+1 Cercetator
+1 Medic
+1 Soldat
+
+O sa incepem un "ciclu" de mentenanta odata cu decriogenizarea acestor persoane, care vor fi treji timp de un an.
+In cadrul acestui an ei vor inregistra evenimente care se intampla pe nava.
+
+Odata cu terminarea unui ciclu, aceste persoane vor fi re-criogenizate pentru inceperea unui nou ciclu.
+Inainte de terminarea unui ciclu, se vor inregistra toate problemele pe care le-au intampinat si gravitatea lor.
+Gravitatea activitatilor va fi inregistrata cu un numar (1, 2 sau 3).
+Pe baza inregistrarilor de la fiecare se vor decide persoanele pentru urmatorul ciclu.
+Inregistrarile o sa contina urmatoarele informatii:
+- data
+- cine a observat problema
+- sursa
+- cauza
+- cine s-a ocupat de problema
+- gravitatea problemei
+- solutionata (True/False)
+
+
+In 3 cicluri, o persoana din fiecare nivel si fiecare categorie trebuie sa fie trezita.
+Aceleasi persoane nu pot fi folosite pentru urmatoarele 10 cicluri
+
+
+Proiectul are urmatoarele cerinte minime:
+(Advanced python)
+- proiect poetry
+- 3 obiecte python
+	- o metoda de sistem
+- 1 decorator
+- o metoda de serializare (JSON/CSV/PICKLE)
