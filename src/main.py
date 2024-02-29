@@ -1,5 +1,6 @@
 
 from models.cycle import Cycle
+import threading
 import time
 import json
 
@@ -74,6 +75,7 @@ def departure(cycles: int, date: list)->None:
 
     for i in range(1, cycles+1):
         print(f"Initializing cycle number {i} at {date[0]}.{date[1]}.{date[2]}\nDe-cryogenization process is starting.")
+        time.sleep(2)
 
         if (i-1)%3==0:
             
@@ -130,22 +132,31 @@ def departure(cycles: int, date: list)->None:
         print(f"Soldiers: {cycle.squad[3]["nr_of"]} {cycle.squad[3]["profession"]}\n")
 
         date[2]=str(int(date[2])+1)
+        record(cycle)
         situations.extend(cycle.situations)
         
 
 def record(cycle: Cycle)->None:
-    pass
+    
+    data=[]
+    file_path = "proj.data.recorded_situations.json"
+    
+    try:
+        with open(file_path, "r") as json_file:
+            data = json.load(json_file)
+            print("File exists and has been loaded successfully.")
+    except FileNotFoundError:
+        print(f"The file '{file_path}' does not exist.")
+    except json.JSONDecodeError:
+        print(f"The file '{file_path}' is not valid JSON.")
 
-    # file_path = "non_existent_file.json"
+    for sit in cycle.situations:
+        dict={"date":sit.date,"observer":sit.observer,"source":sit.source,"cause":sit.cause,"solver":sit.solver,"problem_gravity":sit.problem_gravity,"solved":sit.solved}
+        data.append(dict)
+    
 
-    # try:
-    #     with open(file_path, "r") as json_file:
-    #         data = json.load(json_file)
-    #         print("File exists and has been loaded successfully.")
-    # except FileNotFoundError:
-    #     print(f"The file '{file_path}' does not exist.")
-    # except json.JSONDecodeError:
-    #     print(f"The file '{file_path}' is not valid JSON.")
+    with open(file_path,'w') as json_file:
+        json.dump(data,json_file,indent=4)
 
     
 
@@ -154,7 +165,10 @@ def record(cycle: Cycle)->None:
 def main():
     input_data = config()
     cycles = int(input_data[-1])
-    departure(cycles, input_data[:-1])  
+    thread=threading.Thread(target=departure, args=(cycles, input_data[:-1]))
+    thread.start()
+    thread.join()
+     
     
 
 if __name__=="__main__":

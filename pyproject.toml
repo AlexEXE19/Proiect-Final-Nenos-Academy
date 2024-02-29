@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "proiect final nenos"
+name = "proj"
 version = "0.1.0"
 description = ""
 authors = ["AlexEXE19 <alexutzu873@gmail.com>"]
@@ -8,11 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.6.1"
-pytest = "^8.0.0"
-
-
-[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
 flake8 = "^7.0.0"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+
 
 [build-system]
 requires = ["poetry-core"]
