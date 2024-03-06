@@ -3,7 +3,7 @@ from models.cycle import Cycle
 import threading
 import time
 import json
-
+from database import save
 
 
 def config()->list:
@@ -168,8 +168,10 @@ def main():
     thread=threading.Thread(target=departure, args=(cycles, input_data[:-1]))
     thread.start()
     thread.join()
+    save() # saving the info into the database
+
      
-    
+
 
 if __name__=="__main__":
     main()
