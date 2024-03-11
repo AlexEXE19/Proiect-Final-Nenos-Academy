@@ -9,8 +9,4 @@ class Situation(BaseModel):
     solver: str
     problem_gravity: int # 1-3
     solved: bool
-        
-    def __str__(self):
-        return f"{self.date}, {self.observer}, {self.source}, {self.cause}, {self.solver}, {self.problem_gravity}, {self.solved}\n"
-    
-        
+ 

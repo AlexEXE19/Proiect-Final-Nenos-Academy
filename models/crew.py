@@ -14,8 +14,3 @@ class Crew():
         self.researchers=[{"profession":"Psychologists","nr_of":random.randint(1,3)},{"profession":"Biologists","nr_of":random.randint(1,3)},{"profession":"Astronomeers","nr_of":random.randint(1,3)}]
         self.medics=[{"profession":'Assistants',"nr_of":random.randint(1,3)},{"profession":'General Practitioners',"nr_of":random.randint(1,3)},{"profession":'Neurologists',"nr_of":random.randint(1,3)}]
         self.soldiers=[{"profession":'Level 1',"nr_of":random.randint(1,3)},{"profession":'Level 2',"nr_of":random.randint(1,3)},{"profession":'Level 3',"nr_of":random.randint(1,3)}]
-
-    def __str__(self) -> str:
-        pass
-  
-
