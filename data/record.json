@@ -1,0 +1,836 @@
+[
+    {
+        "Cycle that started on": "13.3.2025",
+        "Has awaken following personnel": {
+            "Engineers": "2 Aeronautics",
+            "Researchers": "2 Psychologists",
+            "Medics": "2 Assistants",
+            "Soldiers": "1 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "23.6.2025",
+                "observer": "Level 1",
+                "source": "System A",
+                "cause": "Power Surge",
+                "solver": "Psychologists",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2026",
+        "Has awaken following personnel": {
+            "Engineers": "2 Mechanics",
+            "Researchers": "1 Astronomeers",
+            "Medics": "1 Neurologists",
+            "Soldiers": "3 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "15.3.2026",
+                "observer": "Level 2",
+                "source": "System C",
+                "cause": "Software Bug",
+                "solver": "Level 2",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "19.2.2026",
+                "observer": "Neurologists",
+                "source": "System A",
+                "cause": "Software Bug",
+                "solver": "Neurologists",
+                "problem_gravity": 3,
+                "solved": false
+            },
+            {
+                "date": "16.12.2026",
+                "observer": "Level 2",
+                "source": "System A",
+                "cause": "Power Surge",
+                "solver": "Neurologists",
+                "problem_gravity": 3,
+                "solved": false
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2027",
+        "Has awaken following personnel": {
+            "Engineers": "1 IT",
+            "Researchers": "1 Biologists",
+            "Medics": "1 General Practitioners",
+            "Soldiers": "2 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "18.5.2027",
+                "observer": "General Practitioners",
+                "source": "External Module",
+                "cause": "Human Error",
+                "solver": "Biologists",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "25.12.2027",
+                "observer": "General Practitioners",
+                "source": "System B",
+                "cause": "Sensor Failure",
+                "solver": "Biologists",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "25.9.2027",
+                "observer": "General Practitioners",
+                "source": "System C",
+                "cause": "Malfunction",
+                "solver": "IT",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "14.6.2027",
+                "observer": "IT",
+                "source": "External Module",
+                "cause": "Human Error",
+                "solver": "Level 3",
+                "problem_gravity": 2,
+                "solved": false
+            },
+            {
+                "date": "20.6.2027",
+                "observer": "Biologists",
+                "source": "System C",
+                "cause": "Data Corruption",
+                "solver": "IT",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2028",
+        "Has awaken following personnel": {
+            "Engineers": "2 Aeronautics",
+            "Researchers": "3 Biologists",
+            "Medics": "1 Assistants",
+            "Soldiers": "1 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "19.4.2028",
+                "observer": "Assistants",
+                "source": "Backup System",
+                "cause": "Data Corruption",
+                "solver": "Level 2",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "22.8.2028",
+                "observer": "Level 2",
+                "source": "System B",
+                "cause": "Human Error",
+                "solver": "Biologists",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "16.5.2028",
+                "observer": "Biologists",
+                "source": "System C",
+                "cause": "Power Surge",
+                "solver": "Aeronautics",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "20.1.2028",
+                "observer": "Level 2",
+                "source": "Communication Module",
+                "cause": "Sensor Failure",
+                "solver": "Aeronautics",
+                "problem_gravity": 2,
+                "solved": false
+            },
+            {
+                "date": "21.7.2028",
+                "observer": "Level 2",
+                "source": "External Module",
+                "cause": "Power Surge",
+                "solver": "Biologists",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2029",
+        "Has awaken following personnel": {
+            "Engineers": "3 Mechanics",
+            "Researchers": "2 Astronomeers",
+            "Medics": "3 Neurologists",
+            "Soldiers": "1 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "25.2.2029",
+                "observer": "Mechanics",
+                "source": "System D",
+                "cause": "Technical Glitch",
+                "solver": "Astronomeers",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "16.4.2029",
+                "observer": "Neurologists",
+                "source": "System B",
+                "cause": "Data Corruption",
+                "solver": "Astronomeers",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "23.7.2029",
+                "observer": "Astronomeers",
+                "source": "System A",
+                "cause": "Sensor Failure",
+                "solver": "Mechanics",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "18.9.2029",
+                "observer": "Astronomeers",
+                "source": "System D",
+                "cause": "Power Surge",
+                "solver": "Astronomeers",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "29.3.2029",
+                "observer": "Level 3",
+                "source": "External Module",
+                "cause": "Technical Glitch",
+                "solver": "Neurologists",
+                "problem_gravity": 3,
+                "solved": false
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2030",
+        "Has awaken following personnel": {
+            "Engineers": "1 IT",
+            "Researchers": "3 Psychologists",
+            "Medics": "2 General Practitioners",
+            "Soldiers": "3 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "15.11.2030",
+                "observer": "IT",
+                "source": "Backup System",
+                "cause": "Technical Glitch",
+                "solver": "General Practitioners",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2031",
+        "Has awaken following personnel": {
+            "Engineers": "2 Mechanics",
+            "Researchers": "3 Astronomeers",
+            "Medics": "1 General Practitioners",
+            "Soldiers": "2 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "24.5.2031",
+                "observer": "Level 2",
+                "source": "System C",
+                "cause": "Human Error",
+                "solver": "Mechanics",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "28.9.2031",
+                "observer": "Level 2",
+                "source": "Backup System",
+                "cause": "Human Error",
+                "solver": "General Practitioners",
+                "problem_gravity": 2,
+                "solved": false
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2032",
+        "Has awaken following personnel": {
+            "Engineers": "1 Aeronautics",
+            "Researchers": "2 Psychologists",
+            "Medics": "1 Assistants",
+            "Soldiers": "1 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "19.4.2032",
+                "observer": "Aeronautics",
+                "source": "System D",
+                "cause": "Software Bug",
+                "solver": "Assistants",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2033",
+        "Has awaken following personnel": {
+            "Engineers": "2 IT",
+            "Researchers": "1 Biologists",
+            "Medics": "2 Neurologists",
+            "Soldiers": "1 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "18.2.2033",
+                "observer": "Level 3",
+                "source": "System B",
+                "cause": "Power Surge",
+                "solver": "IT",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "27.9.2033",
+                "observer": "Level 3",
+                "source": "Backup System",
+                "cause": "Data Corruption",
+                "solver": "Level 3",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2034",
+        "Has awaken following personnel": {
+            "Engineers": "2 Mechanics",
+            "Researchers": "1 Astronomeers",
+            "Medics": "3 General Practitioners",
+            "Soldiers": "3 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "14.8.2034",
+                "observer": "Mechanics",
+                "source": "Backup System",
+                "cause": "Software Bug",
+                "solver": "Astronomeers",
+                "problem_gravity": 2,
+                "solved": false
+            },
+            {
+                "date": "27.7.2034",
+                "observer": "Mechanics",
+                "source": "System B",
+                "cause": "Software Bug",
+                "solver": "Level 2",
+                "problem_gravity": 3,
+                "solved": false
+            },
+            {
+                "date": "17.12.2034",
+                "observer": "Astronomeers",
+                "source": "System B",
+                "cause": "Sensor Failure",
+                "solver": "General Practitioners",
+                "problem_gravity": 2,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2035",
+        "Has awaken following personnel": {
+            "Engineers": "2 IT",
+            "Researchers": "3 Biologists",
+            "Medics": "3 Neurologists",
+            "Soldiers": "2 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "19.4.2035",
+                "observer": "Level 3",
+                "source": "System B",
+                "cause": "Software Bug",
+                "solver": "IT",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "16.4.2035",
+                "observer": "IT",
+                "source": "Backup System",
+                "cause": "Human Error",
+                "solver": "Level 3",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "21.9.2035",
+                "observer": "Level 3",
+                "source": "System A",
+                "cause": "Power Surge",
+                "solver": "Level 3",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "13.3.2035",
+                "observer": "Neurologists",
+                "source": "Backup System",
+                "cause": "Human Error",
+                "solver": "IT",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "13.3.2036",
+        "Has awaken following personnel": {
+            "Engineers": "2 Aeronautics",
+            "Researchers": "3 Psychologists",
+            "Medics": "2 Assistants",
+            "Soldiers": "2 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "24.6.2036",
+                "observer": "Level 1",
+                "source": "System B",
+                "cause": "Software Bug",
+                "solver": "Level 1",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "16.3.2036",
+                "observer": "Level 1",
+                "source": "External Module",
+                "cause": "Data Corruption",
+                "solver": "Psychologists",
+                "problem_gravity": 3,
+                "solved": false
+            },
+            {
+                "date": "30.3.2036",
+                "observer": "Level 1",
+                "source": "Backup System",
+                "cause": "Technical Glitch",
+                "solver": "Aeronautics",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "20.9.2036",
+                "observer": "Level 1",
+                "source": "System B",
+                "cause": "Power Surge",
+                "solver": "Assistants",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "16.8.2036",
+                "observer": "Aeronautics",
+                "source": "System C",
+                "cause": "Human Error",
+                "solver": "Aeronautics",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2051",
+        "Has awaken following personnel": {
+            "Engineers": "3 IT",
+            "Researchers": "1 Biologists",
+            "Medics": "1 Neurologists",
+            "Soldiers": "1 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "27.1.2051",
+                "observer": "Level 2",
+                "source": "System A",
+                "cause": "Software Bug",
+                "solver": "IT",
+                "problem_gravity": 3,
+                "solved": false
+            },
+            {
+                "date": "22.5.2051",
+                "observer": "Biologists",
+                "source": "System D",
+                "cause": "Sensor Failure",
+                "solver": "Level 2",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "24.3.2051",
+                "observer": "Level 2",
+                "source": "Backup System",
+                "cause": "Technical Glitch",
+                "solver": "Level 2",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "22.9.2051",
+                "observer": "Level 2",
+                "source": "External Module",
+                "cause": "Data Corruption",
+                "solver": "Biologists",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "26.3.2051",
+                "observer": "Biologists",
+                "source": "System B",
+                "cause": "Power Surge",
+                "solver": "Neurologists",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2052",
+        "Has awaken following personnel": {
+            "Engineers": "2 Aeronautics",
+            "Researchers": "2 Astronomeers",
+            "Medics": "2 General Practitioners",
+            "Soldiers": "2 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "23.6.2052",
+                "observer": "Aeronautics",
+                "source": "External Module",
+                "cause": "Technical Glitch",
+                "solver": "Level 1",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "20.5.2052",
+                "observer": "Aeronautics",
+                "source": "System C",
+                "cause": "Power Surge",
+                "solver": "Astronomeers",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "20.4.2052",
+                "observer": "Astronomeers",
+                "source": "Backup System",
+                "cause": "Malfunction",
+                "solver": "General Practitioners",
+                "problem_gravity": 1,
+                "solved": false
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2053",
+        "Has awaken following personnel": {
+            "Engineers": "1 Mechanics",
+            "Researchers": "1 Psychologists",
+            "Medics": "2 Assistants",
+            "Soldiers": "2 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "24.3.2053",
+                "observer": "Psychologists",
+                "source": "External Module",
+                "cause": "Malfunction",
+                "solver": "Psychologists",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "25.5.2053",
+                "observer": "Level 3",
+                "source": "Communication Module",
+                "cause": "Human Error",
+                "solver": "Mechanics",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "25.5.2053",
+                "observer": "Mechanics",
+                "source": "Backup System",
+                "cause": "Software Bug",
+                "solver": "Psychologists",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2054",
+        "Has awaken following personnel": {
+            "Engineers": "3 Aeronautics",
+            "Researchers": "1 Biologists",
+            "Medics": "2 Assistants",
+            "Soldiers": "2 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "22.3.2054",
+                "observer": "Assistants",
+                "source": "System B",
+                "cause": "Technical Glitch",
+                "solver": "Level 2",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "20.10.2054",
+                "observer": "Biologists",
+                "source": "System A",
+                "cause": "Software Bug",
+                "solver": "Biologists",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "21.2.2054",
+                "observer": "Level 2",
+                "source": "External Module",
+                "cause": "Data Corruption",
+                "solver": "Assistants",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2055",
+        "Has awaken following personnel": {
+            "Engineers": "1 Mechanics",
+            "Researchers": "1 Astronomeers",
+            "Medics": "1 General Practitioners",
+            "Soldiers": "2 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "22.3.2055",
+                "observer": "Mechanics",
+                "source": "System B",
+                "cause": "Human Error",
+                "solver": "Mechanics",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2056",
+        "Has awaken following personnel": {
+            "Engineers": "1 IT",
+            "Researchers": "2 Psychologists",
+            "Medics": "2 Neurologists",
+            "Soldiers": "1 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "30.10.2056",
+                "observer": "IT",
+                "source": "Communication Module",
+                "cause": "Data Corruption",
+                "solver": "Psychologists",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "27.4.2056",
+                "observer": "IT",
+                "source": "System D",
+                "cause": "Data Corruption",
+                "solver": "Psychologists",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "21.8.2056",
+                "observer": "Level 1",
+                "source": "System A",
+                "cause": "Data Corruption",
+                "solver": "Psychologists",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "22.7.2056",
+                "observer": "Psychologists",
+                "source": "Communication Module",
+                "cause": "Software Bug",
+                "solver": "IT",
+                "problem_gravity": 3,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2057",
+        "Has awaken following personnel": {
+            "Engineers": "2 Aeronautics",
+            "Researchers": "3 Biologists",
+            "Medics": "3 General Practitioners",
+            "Soldiers": "3 Level 2"
+        },
+        "Situations encountered": [
+            {
+                "date": "26.8.2057",
+                "observer": "Aeronautics",
+                "source": "External Module",
+                "cause": "Malfunction",
+                "solver": "Biologists",
+                "problem_gravity": 1,
+                "solved": false
+            },
+            {
+                "date": "26.12.2057",
+                "observer": "Aeronautics",
+                "source": "Backup System",
+                "cause": "Sensor Failure",
+                "solver": "Biologists",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "26.8.2057",
+                "observer": "Level 2",
+                "source": "System C",
+                "cause": "Sensor Failure",
+                "solver": "Biologists",
+                "problem_gravity": 3,
+                "solved": true
+            },
+            {
+                "date": "26.9.2057",
+                "observer": "Aeronautics",
+                "source": "Communication Module",
+                "cause": "Data Corruption",
+                "solver": "General Practitioners",
+                "problem_gravity": 1,
+                "solved": true
+            },
+            {
+                "date": "29.11.2057",
+                "observer": "General Practitioners",
+                "source": "System A",
+                "cause": "Power Surge",
+                "solver": "Aeronautics",
+                "problem_gravity": 1,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2058",
+        "Has awaken following personnel": {
+            "Engineers": "3 IT",
+            "Researchers": "2 Astronomeers",
+            "Medics": "3 Neurologists",
+            "Soldiers": "1 Level 1"
+        },
+        "Situations encountered": [
+            {
+                "date": "20.3.2058",
+                "observer": "Astronomeers",
+                "source": "System B",
+                "cause": "Power Surge",
+                "solver": "Astronomeers",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "28.4.2058",
+                "observer": "Level 1",
+                "source": "Backup System",
+                "cause": "Power Surge",
+                "solver": "Astronomeers",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "23.9.2058",
+                "observer": "Astronomeers",
+                "source": "System A",
+                "cause": "Malfunction",
+                "solver": "Astronomeers",
+                "problem_gravity": 2,
+                "solved": true
+            }
+        ]
+    },
+    {
+        "Cycle that started on": "20.6.2059",
+        "Has awaken following personnel": {
+            "Engineers": "2 Mechanics",
+            "Researchers": "2 Psychologists",
+            "Medics": "3 Assistants",
+            "Soldiers": "2 Level 3"
+        },
+        "Situations encountered": [
+            {
+                "date": "22.7.2059",
+                "observer": "Mechanics",
+                "source": "System B",
+                "cause": "Software Bug",
+                "solver": "Assistants",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "20.9.2059",
+                "observer": "Mechanics",
+                "source": "Communication Module",
+                "cause": "Power Surge",
+                "solver": "Assistants",
+                "problem_gravity": 2,
+                "solved": true
+            },
+            {
+                "date": "25.1.2059",
+                "observer": "Assistants",
+                "source": "Communication Module",
+                "cause": "Malfunction",
+                "solver": "Mechanics",
+                "problem_gravity": 2,
+                "solved": true
+            }
+        ]
+    }
+]
